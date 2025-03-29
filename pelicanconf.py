@@ -1,5 +1,5 @@
 AUTHOR = 'McBrown Mwale'
-SITENAME = 'Data Lab'
+SITENAME = "McBrown's DataLab"
 SITEURL = ''
 
 PATH = 'content'
@@ -16,14 +16,14 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('Python.org', 'https://www.python.org/'),
-         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('My Resume', 'https://drive.google.com/file/d/1M-Jvl3bvAcARvyDliUgSdh1Em5vZaUeP/view?usp=sharing'),
+         ('Github', 'https://github.com/mcbrownmwale'),)
+         #('Jinja2', 'https://palletsprojects.com/p/jinja/'),
+         #('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/mcbrownmwale/'),
+          ('Youtube', 'https://www.youtube.com/@KasiwaAcademy'),)
 
 DEFAULT_PAGINATION = 10
 
