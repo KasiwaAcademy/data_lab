@@ -1,4 +1,4 @@
-AUTHOR = 'McBrown Mwale'
+AUTHOR = 'McBrown Wilfred Mwale'
 SITENAME = "McBrown's DataLab"
 SITEURL = ''
 
