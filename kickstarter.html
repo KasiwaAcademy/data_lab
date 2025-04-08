@@ -1168,7 +1168,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
  .highlight pre  .il { color: #666 } /* Literal.Number.Integer.Long */</style><div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="1.0-Introduction">1.0 Introduction<a class="anchor-link" href="#1.0-Introduction">&#182;</a></h2><p>We are Data Analysts for a <strong>startup</strong> company that is considering to introduce their projects on kickstarter platform so that they could raise funding for their projects. <strong>Kickstarter</strong> is a global crowdfunding platform designed to help creators bring their projects to life. It primarily serves as a bridge between individuals or organizations with creative ideas and backers who provide the financial support needed to turn those ideas into reality. As Data Analysts we have been tasked to find the features of projects that are more likely to be successfull and those that do fail. Our findings will help the management team make informed decisions as to which projects to put on <strong>Kickstarter</strong> that will have high chances of recieving funding.</p>
+<h2 id="1.-Introduction">1. Introduction<a class="anchor-link" href="#1.-Introduction">&#182;</a></h2><p>We are Data Analysts for a <strong>startup</strong> company that is considering to introduce their projects on kickstarter platform so that they could raise funding for their projects. <strong>Kickstarter</strong> is a global crowdfunding platform designed to help creators bring their projects to life. It primarily serves as a bridge between individuals or organizations with creative ideas and backers who provide the financial support needed to turn those ideas into reality. As Data Analysts we have been tasked to find the features of projects that are more likely to be successfull and those that do fail. Our findings will help the management team make informed decisions as to which projects to put on <strong>Kickstarter</strong> that will have high chances of recieving funding.</p>
 <p>We are specifically going to answer the following questions with our analysis:</p>
 <ol>
 <li>What are the success rates across different categories?</li>
@@ -1216,7 +1216,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="2.0-Loading-Data-and-Data-Cleaning">2.0 Loading Data and Data Cleaning<a class="anchor-link" href="#2.0-Loading-Data-and-Data-Cleaning">&#182;</a></h2><p>Here we will load our downloaded kickstarter CSV file and do some initial data cleaining before we introduce our data to the PostgreSQL server. We have a database in the PostgreSQL server that will be populated with the data from the CSV that we are about to load and clean in this section.</p>
+<h2 id="2.-Loading-Data-and-Data-Cleaning">2. Loading Data and Data Cleaning<a class="anchor-link" href="#2.-Loading-Data-and-Data-Cleaning">&#182;</a></h2><p>Here we will load our downloaded kickstarter CSV file and do some initial data cleaining before we introduce our data to the PostgreSQL server. We have a database in the PostgreSQL server that will be populated with the data from the CSV that we are about to load and clean in this section.</p>
 <h3 id="2.1-Read-Kickstarter-Dataset">2.1 Read Kickstarter Dataset<a class="anchor-link" href="#2.1-Read-Kickstarter-Dataset">&#182;</a></h3>
 </div>
 </div>
@@ -1479,7 +1479,7 @@ are because this is not a column of interest for this project and we can not ris
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Our daset is now clean to be imported into the PostgreSQL database.</p>
-<h2 id="3.0-Importing-Data-into-PostgreSQL-Database">3.0 Importing Data into PostgreSQL Database<a class="anchor-link" href="#3.0-Importing-Data-into-PostgreSQL-Database">&#182;</a></h2><p>We will now have to import our data into the database. We have a database named <strong>kickstarter</strong> created in our PostgreSQL server but it has no tables let alone data points within it. We will have to create a table within the database and define the data type for each column then we will import our cleaned csv dataset into it.</p>
+<h2 id="3.-Importing-Data-into-PostgreSQL-Database">3. Importing Data into PostgreSQL Database<a class="anchor-link" href="#3.-Importing-Data-into-PostgreSQL-Database">&#182;</a></h2><p>We will now have to import our data into the database. We have a database named <strong>kickstarter</strong> created in our PostgreSQL server but it has no tables let alone data points within it. We will have to create a table within the database and define the data type for each column then we will import our cleaned csv dataset into it.</p>
 <h3 id="3.1-Create-a-Connection-to-the-Database">3.1 Create a Connection to the Database<a class="anchor-link" href="#3.1-Create-a-Connection-to-the-Database">&#182;</a></h3><p>Let us create a connection to the PostgreSQL server and <strong>kickstarter</strong> database. This connection will enable us to perform various activities in the database from this Notebook.</p>
 
 </div>
@@ -1755,7 +1755,7 @@ than <strong>psycopg2</strong>.</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="4.0-Understanding-the-Dataset">4.0 Understanding the Dataset<a class="anchor-link" href="#4.0-Understanding-the-Dataset">&#182;</a></h2><p>We have a table of data in our database, its now time we start using our data right from the database. We will begin by reconnecting to the database, this time with <strong>SqlAlchemy</strong>, not with <strong>psycopg2</strong> as we did before. Most of the activities that we can do with <strong>SqlAlchemy</strong> can also be accomplished by <strong>Psycopg2</strong>, however, we have decided to change the module because using <strong>Psycopg2</strong> produces a <strong>UserWarning</strong> error when paired with <strong>Pandas</strong>.</p>
+<h2 id="4.-Understanding-the-Dataset">4. Understanding the Dataset<a class="anchor-link" href="#4.-Understanding-the-Dataset">&#182;</a></h2><p>We have a table of data in our database, its now time we start using our data right from the database. We will begin by reconnecting to the database, this time with <strong>SqlAlchemy</strong>, not with <strong>psycopg2</strong> as we did before. Most of the activities that we can do with <strong>SqlAlchemy</strong> can also be accomplished by <strong>Psycopg2</strong>, however, we have decided to change the module because using <strong>Psycopg2</strong> produces a <strong>UserWarning</strong> error when paired with <strong>Pandas</strong>.</p>
 <h3 id="4.1-Connect-to-database">4.1 Connect to database<a class="anchor-link" href="#4.1-Connect-to-database">&#182;</a></h3><p>We will start by importing <strong>create_engine</strong> module from SqlAlchemy Library, which will help us create a connection to the database and help us to run <strong>SQL</strong> queries directly from Jupyter Notebook. Then we will create a connection.</p>
 
 </div>
@@ -1932,21 +1932,36 @@ than <strong>psycopg2</strong>.</p>
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>From the above output, we can see that there are <strong>15</strong> columns and data types we defined when we created a <strong>ks_projects</strong> table in the <strong>kickstarter</strong> database. The following is a list of the columns and their corresponding brief description.</p>
 <ol>
-<li><code>id</code>: Unique Identifier for each Project</li>
-<li><code>name</code>: Name of the Project</li>
-<li><code>category</code>: Sub-Category of Project</li>
-<li><code>main_category</code>: Main category of the project</li>
-<li><code>currency</code>: Currency used for the goal and pledged</li>
-<li><code>deadline</code>: Date the campaign ends</li>
-<li><code>goal</code>: Fundraising goal</li>
-<li><code>launched</code>: Date the campain was launched</li>
-<li><code>pledged</code>: Amount pledged</li>
-<li><code>state</code>: State of Project (Successful, cancelled, etc)</li>
-<li><code>backers</code>: Number of project's backers</li>
-<li><code>country</code>: Country of the project</li>
-<li><code>usd_pledged</code>: Pledged amount in USD (estimated)</li>
-<li><code>usd_pledged_real</code>: Actual pledged amount in USD</li>
-<li><code>usd_goal_real</code>: Actual funding goal in USD</li>
+<li><p><code>id</code>: Unique Identifier for each Project</p>
+</li>
+<li><p><code>name</code>: Name of the Project</p>
+</li>
+<li><p><code>category</code>: Sub-Category of Project</p>
+</li>
+<li><p><code>main_category</code>: Main category of the project</p>
+</li>
+<li><p><code>currency</code>: Currency used for the goal and pledged</p>
+</li>
+<li><p><code>deadline</code>: Date the campaign ends</p>
+</li>
+<li><p><code>goal</code>: Fundraising goal</p>
+</li>
+<li><p><code>launched</code>: Date the campain was launched</p>
+</li>
+<li><p><code>pledged</code>: Amount pledged</p>
+</li>
+<li><p><code>state</code>: State of Project (Successful, cancelled, etc)</p>
+</li>
+<li><p><code>backers</code>: Number of project's backers</p>
+</li>
+<li><p><code>country</code>: Country of the project</p>
+</li>
+<li><p><code>usd_pledged</code>: Pledged amount in USD (estimated)</p>
+</li>
+<li><p><code>usd_pledged_real</code>: Actual pledged amount in USD</p>
+</li>
+<li><p><code>usd_goal_real</code>: Actual funding goal in USD</p>
+</li>
 </ol>
 
 </div>
@@ -1955,7 +1970,7 @@ than <strong>psycopg2</strong>.</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="5.0-Exploratory-Data-Analysis-(EDA)">5.0 Exploratory Data Analysis (EDA)<a class="anchor-link" href="#5.0-Exploratory-Data-Analysis-(EDA)">&#182;</a></h2><h5 id="Questions-to-Explore">Questions to Explore<a class="anchor-link" href="#Questions-to-Explore">&#182;</a></h5><ol>
+<h2 id="5.-Exploratory-Data-Analysis-(EDA)">5. Exploratory Data Analysis (EDA)<a class="anchor-link" href="#5.-Exploratory-Data-Analysis-(EDA)">&#182;</a></h2><h5 id="Questions-to-Explore">Questions to Explore<a class="anchor-link" href="#Questions-to-Explore">&#182;</a></h5><ol>
 <li>What are the success rates across different <code>main_categories</code>?</li>
 <li>Which <code>countries</code> have the highest success rates?</li>
 <li>How does the funding goal affect success probability?</li>
@@ -2788,7 +2803,7 @@ than <strong>psycopg2</strong>.</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="6.0-Summary-and-Insights">6.0 Summary and Insights<a class="anchor-link" href="#6.0-Summary-and-Insights">&#182;</a></h2><ol>
+<h2 id="6.-Summary-and-Insights">6. Summary and Insights<a class="anchor-link" href="#6.-Summary-and-Insights">&#182;</a></h2><ol>
 <li><p><strong>Success rates vary across different project categories</strong>, with <strong>Dance</strong>, <strong>Theater</strong>, and <strong>Comics</strong> demonstrating relatively high success rates. This suggests that projects in these categories are more likely to secure funding or receive support. We recommend that our management team prioritize initiatives in these categories to maximize funding opportunities.</p>
 </li>
 <li><p><strong>Success rates differ by country</strong>, with projects in the <strong>United States</strong>, <strong>Great Britain</strong>, and <strong>Hong Kong</strong> achieving the highest success rates. However, the overall success rates remain modest, with a maximum of <strong>37%</strong>, and the differences between countries are not highly significant. Any strategic decision based on these findings would require further in-depth analysis.</p>
@@ -2798,19 +2813,10 @@ than <strong>psycopg2</strong>.</p>
 <li><p><strong>Projects with a higher number of backers are more likely to be funded</strong>. To enhance funding success, our company should focus on engaging and attracting as many backers as possible.</p>
 </li>
 </ol>
-<h2 id="7.0-Next-Steps">7.0 Next Steps<a class="anchor-link" href="#7.0-Next-Steps">&#182;</a></h2><h4 id="Advanced-Data-Analysis">Advanced Data Analysis<a class="anchor-link" href="#Advanced-Data-Analysis">&#182;</a></h4><ol>
+<h2 id="7.-Next-Steps">7. Next Steps<a class="anchor-link" href="#7.-Next-Steps">&#182;</a></h2><h4 id="Advanced-Data-Analysis">Advanced Data Analysis<a class="anchor-link" href="#Advanced-Data-Analysis">&#182;</a></h4><ol>
 <li>Predictive Analysis</li>
 <li>Prescriptive Analysis</li>
 </ol>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-
-<pre><code>                                                                                                McBrown Mwale</code></pre>
 
 </div>
 </div>
