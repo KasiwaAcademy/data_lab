@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV /home/mcbrown/Projects/Websites/data_lab/pelican
+set -gx VIRTUAL_ENV /home/mcbrown/Projects/Web_Apps/data_lab/pelican
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/"bin $PATH

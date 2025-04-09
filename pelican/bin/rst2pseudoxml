@@ -1,4 +1,4 @@
-#!/home/mcbrown/Projects/Websites/data_lab/pelican/bin/python3
+#!/home/mcbrown/Projects/Web_Apps/data_lab/pelican/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
