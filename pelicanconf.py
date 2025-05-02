@@ -1,5 +1,5 @@
 AUTHOR = "McBrown Mwale"
-SITENAME = "McBrown's DataLab"
+SITENAME = "Kasiwa Academy"
 SITEURL = ""
 
 PATH = "content"

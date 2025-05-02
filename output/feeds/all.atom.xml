@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>McBrown's DataLab</title><link href="https://kasiwaacademy.github.io/data_lab/" rel="alternate"></link><link href="https://kasiwaacademy.github.io/data_lab/feeds/all.atom.xml" rel="self"></link><id>https://kasiwaacademy.github.io/data_lab/</id><updated>2025-03-31T00:00:00+02:00</updated><entry><title>Investgating Covid-19 Virus Trends</title><link href="https://kasiwaacademy.github.io/data_lab/covid_19.html" rel="alternate"></link><published>2025-03-31T00:00:00+02:00</published><updated>2025-03-31T00:00:00+02:00</updated><author><name>McBrown Mwale</name></author><id>tag:kasiwaacademy.github.io,2025-03-31:/data_lab/covid_19.html</id><summary type="html">&lt;p&gt;This project Demonstrates Proficiency in Data Cleaning and Exploratory Data Analysis (EDA).&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Kasiwa Academy</title><link href="https://kasiwaacademy.github.io/data_lab/" rel="alternate"></link><link href="https://kasiwaacademy.github.io/data_lab/feeds/all.atom.xml" rel="self"></link><id>https://kasiwaacademy.github.io/data_lab/</id><updated>2025-03-31T00:00:00+02:00</updated><entry><title>Investgating Covid-19 Virus Trends</title><link href="https://kasiwaacademy.github.io/data_lab/covid_19.html" rel="alternate"></link><published>2025-03-31T00:00:00+02:00</published><updated>2025-03-31T00:00:00+02:00</updated><author><name>McBrown Mwale</name></author><id>tag:kasiwaacademy.github.io,2025-03-31:/data_lab/covid_19.html</id><summary type="html">&lt;p&gt;This project Demonstrates Proficiency in Data Cleaning and Exploratory Data Analysis (EDA).&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -7220,8 +7220,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
  .highlight pre  .il { color: #666 } /* Literal.Number.Integer.Long */&lt;/style&gt;&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;p## Project Overview
-For this project we will be looking at the Medical Costs dataset from kaggle. This dataset contains information on individual medical insurance bills. Each bill is associated with some demographic and personal characteristics of the person who received it.&lt;/p&gt;
+&lt;h2 id="Project-Overview"&gt;Project Overview&lt;a class="anchor-link" href="#Project-Overview"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;For this project we will be looking at the Medical Costs dataset from kaggle. This dataset contains information on individual medical insurance bills. Each bill is associated with some demographic and personal characteristics of the person who received it.&lt;/p&gt;
 &lt;p&gt;For our regression problem, we are interested in how these different characteristics relate to the total medical costs. We want to construct the best possible predictive model for the cost, given some information about the patient.&lt;/p&gt;
 &lt;p&gt;Let us get started by importing the required Python Libraries:&lt;/p&gt;
 
