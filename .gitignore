@@ -172,3 +172,6 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+.pelicanconf.py.swp
+.publishconf.py.swp
