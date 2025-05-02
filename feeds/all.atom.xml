@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>McBrown's DataLab</title><link href="https://mcbrownmwale.github.io/data_lab/" rel="alternate"></link><link href="https://mcbrownmwale.github.io/data_lab/feeds/all.atom.xml" rel="self"></link><id>https://mcbrownmwale.github.io/data_lab/</id><updated>2025-03-31T00:00:00+02:00</updated><entry><title>Investgating Covid-19 Virus Trends</title><link href="https://mcbrownmwale.github.io/data_lab/covid_19.html" rel="alternate"></link><published>2025-03-31T00:00:00+02:00</published><updated>2025-03-31T00:00:00+02:00</updated><author><name>McBrown Mwale</name></author><id>tag:mcbrownmwale.github.io,2025-03-31:/data_lab/covid_19.html</id><summary type="html">&lt;p&gt;This project Demonstrates Proficiency in Data Cleaning and Exploratory Data Analysis (EDA).&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
+<feed xmlns="http://www.w3.org/2005/Atom"><title>McBrown's DataLab</title><link href="https://kasiwaacademy.github.io/data_lab/" rel="alternate"></link><link href="https://kasiwaacademy.github.io/data_lab/feeds/all.atom.xml" rel="self"></link><id>https://kasiwaacademy.github.io/data_lab/</id><updated>2025-03-31T00:00:00+02:00</updated><entry><title>Investgating Covid-19 Virus Trends</title><link href="https://kasiwaacademy.github.io/data_lab/covid_19.html" rel="alternate"></link><published>2025-03-31T00:00:00+02:00</published><updated>2025-03-31T00:00:00+02:00</updated><author><name>McBrown Mwale</name></author><id>tag:kasiwaacademy.github.io,2025-03-31:/data_lab/covid_19.html</id><summary type="html">&lt;p&gt;This project Demonstrates Proficiency in Data Cleaning and Exploratory Data Analysis (EDA).&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -3296,7 +3296,7 @@ $&lt;/p&gt;
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</content><category term="Data Analytics"></category><category term="Python"></category></entry><entry><title>Analysing Kickstarter Projects</title><link href="https://mcbrownmwale.github.io/data_lab/kickstarter.html" rel="alternate"></link><published>2025-02-28T00:00:00+02:00</published><updated>2025-02-28T00:00:00+02:00</updated><author><name>McBrown Mwale</name></author><id>tag:mcbrownmwale.github.io,2025-02-28:/data_lab/kickstarter.html</id><summary type="html">&lt;p&gt;This Project Demonstrates Proficiency in Data Cleaning, Exploratory Data Analysis and use of SQL.&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
+</content><category term="Data Analytics"></category><category term="Python"></category></entry><entry><title>Analysing Kickstarter Projects</title><link href="https://kasiwaacademy.github.io/data_lab/kickstarter.html" rel="alternate"></link><published>2025-02-28T00:00:00+02:00</published><updated>2025-02-28T00:00:00+02:00</updated><author><name>McBrown Mwale</name></author><id>tag:kasiwaacademy.github.io,2025-02-28:/data_lab/kickstarter.html</id><summary type="html">&lt;p&gt;This Project Demonstrates Proficiency in Data Cleaning, Exploratory Data Analysis and use of SQL.&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -6100,7 +6100,7 @@ than &lt;strong&gt;psycopg2&lt;/strong&gt;.&lt;/p&gt;
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</content><category term="Data Analytics"></category><category term="Python"></category><category term="SQL"></category></entry><entry><title>Predicting Insurance Costs</title><link href="https://mcbrownmwale.github.io/data_lab/insurance_costs.html" rel="alternate"></link><published>2025-01-31T00:00:00+02:00</published><updated>2025-01-31T00:00:00+02:00</updated><author><name>McBrown Mwale</name></author><id>tag:mcbrownmwale.github.io,2025-01-31:/data_lab/insurance_costs.html</id><summary type="html">&lt;p&gt;This Project Demonstrate Proficiency in Data Cleaning, Feature Engineering, Exploratory Data Analysis (EDA), Regression Modelling and Model Evaluation.&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
+</content><category term="Data Analytics"></category><category term="Python"></category><category term="SQL"></category></entry><entry><title>Predicting Insurance Costs</title><link href="https://kasiwaacademy.github.io/data_lab/insurance_costs.html" rel="alternate"></link><published>2025-01-31T00:00:00+02:00</published><updated>2025-01-31T00:00:00+02:00</updated><author><name>McBrown Mwale</name></author><id>tag:kasiwaacademy.github.io,2025-01-31:/data_lab/insurance_costs.html</id><summary type="html">&lt;p&gt;This Project Demonstrate Proficiency in Data Cleaning, Feature Engineering, Exploratory Data Analysis (EDA), Regression Modelling and Model Evaluation.&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -8676,7 +8676,7 @@ The Intercept for our model is: 10.757583699081843
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</content><category term="Data Science"></category><category term="Python"></category></entry><entry><title>Exploring eBay Car Sales Data</title><link href="https://mcbrownmwale.github.io/data_lab/ebay_car_sales.html" rel="alternate"></link><published>2024-12-31T00:00:00+02:00</published><updated>2024-12-31T00:00:00+02:00</updated><author><name>McBrown Mwale</name></author><id>tag:mcbrownmwale.github.io,2024-12-31:/data_lab/ebay_car_sales.html</id><summary type="html">&lt;p&gt;This Project Demonstrates Proficiency in Data Cleaning, Feature Engineering, Exploratory Data Analysis (EDA) and Data Visualization using Matplotlib.&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
+</content><category term="Data Science"></category><category term="Python"></category></entry><entry><title>Exploring eBay Car Sales Data</title><link href="https://kasiwaacademy.github.io/data_lab/ebay_car_sales.html" rel="alternate"></link><published>2024-12-31T00:00:00+02:00</published><updated>2024-12-31T00:00:00+02:00</updated><author><name>McBrown Mwale</name></author><id>tag:kasiwaacademy.github.io,2024-12-31:/data_lab/ebay_car_sales.html</id><summary type="html">&lt;p&gt;This Project Demonstrates Proficiency in Data Cleaning, Feature Engineering, Exploratory Data Analysis (EDA) and Data Visualization using Matplotlib.&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
