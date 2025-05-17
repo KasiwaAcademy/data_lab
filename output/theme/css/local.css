@@ -1,104 +1,133 @@
-
 .my-list-style {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 .aw-bottom {
-    padding: 2em;
+  padding: 2em;
 }
 
 .aw-footer {
-    margin-top: 2em;
-    border-top: 2px solid lightgrey;
-    border-bottom: 2px solid lightgrey;
-/*    height: 250px;*/
-    padding-top: 2em;
-    padding-bottom: 2em;
+  margin-top: 2em;
+  border-top: 2px solid lightgrey;
+  border-bottom: 2px solid lightgrey;
+  /*    height: 250px;*/
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .aw-footer li {
-    line-height: 200%;
+  line-height: 200%;
 }
 
 .summary {
-    margin-bottom: 2em;
-    margin-top: 2em;
-    color: black;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  color: black;
 }
 
-.summary pre { display: none; }
+.summary pre {
+  display: none;
+}
 
 .article-body {
-    margin-top: 2em;
-    color: black;
+  margin-top: 2em;
+  color: black;
 }
 
 .article-title {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 .article-header {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 /**
  * Overrides of notebook CSS for static HTML export
 **/
 div.entry-content {
-	overflow: visible;
-	padding: 8px;
+  overflow: visible;
+  padding: 8px;
 }
 
 .inner_cell {
-	width: 100%;
+  width: 100%;
 }
 
 .input_area {
-	padding: 0.2em;
+  padding: 0.2em;
 }
 
 a.heading-anchor {
-	white-space: normal;
+  white-space: normal;
 }
 
 .rendered_html code {
-	font-size: .8em;
+  font-size: 0.8em;
 }
 
 pre.ipynb {
-	color: black;
-	background: #f7f7f7;
-	border: none;
-	box-shadow: none;
-	margin-bottom: 0;
-	padding: 0;
-	margin: 0px;
-	font-size: 13px;
+  color: black;
+  background: #f7f7f7;
+  border: none;
+  box-shadow: none;
+  margin-bottom: 0;
+  padding: 0;
+  margin: 0px;
+  font-size: 13px;
 }
 
 /* remove the prompt div from text cells */
 .prompt {
-	display: none;
+  display: none;
 }
 
 /* remove horizontal padding from text cells, */
 /* so it aligns with outer body text */
 div.text_cell_render {
-	padding: 0.5em 0em;
+  padding: 0.5em 0em;
 }
 
 img.anim_icon {
-	padding: 0;
-	border: 0;
-	vertical-align: middle;
-	-webkit-box-shadow: none;
-	-box-shadow: none;
+  padding: 0;
+  border: 0;
+  vertical-align: middle;
+  -webkit-box-shadow: none;
+  -box-shadow: none;
 }
 
 div.collapseheader {
-	width: 100%;
-	background-color: #d3d3d3;
-	padding: 2px;
-	cursor: pointer;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  width: 100%;
+  background-color: #d3d3d3;
+  padding: 2px;
+  cursor: pointer;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+/* Main notebook content */
+.nb-notebook,
+.nb-cell,
+.nb-markdown-cell,
+.nb-text {
+  font-family: "Roboto", sans-serif !important;
+  line-height: 1.6;
+}
+
+/* Code cells and input/output */
+.nb-cell.code_cell pre,
+.nb-input,
+.nb-output,
+.nb-raw-cell,
+.highlight {
+  font-family: "Fira Code", monospace !important;
+  font-size: 14px;
+}
+
+/* Headers */
+.nb-notebook h1,
+.nb-notebook h2,
+.nb-notebook h3 {
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 700;
+}
+
